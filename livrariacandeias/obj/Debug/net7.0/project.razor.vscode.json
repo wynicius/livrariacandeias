@@ -18721,23 +18721,18 @@
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\Create.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\Areas\\Admin\\Views\\Product\\Delete.cshtml",
       "TargetPath": "Areas\\Admin\\Views\\Product\\Delete.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\Edit.cshtml",
+      "FilePath": "c:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\Areas\\Admin\\Views\\Product\\Index.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Product\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\Areas\\Admin\\Views\\Product\\Index.cshtml",
-      "TargetPath": "Areas\\Admin\\Views\\Product\\Index.cshtml",
+      "FilePath": "c:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\Areas\\Admin\\Views\\Product\\Upsert.cshtml",
+      "TargetPath": "Areas\\Admin\\Views\\Product\\Upsert.cshtml",
       "FileKind": "mvc"
     }
   ],
