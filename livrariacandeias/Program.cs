@@ -3,7 +3,8 @@ using livrariacandeias.DataAccess.Repository;
 using livrariacandeias.DataAccess.Repository.IRepository;
 using livrariacandeias.Models;
 using Microsoft.EntityFrameworkCore;
-
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -14,7 +15,9 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
 );
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
+
 var app = builder.Build();
+
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())

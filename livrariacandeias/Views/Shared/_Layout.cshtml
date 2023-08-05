@@ -37,7 +37,10 @@
                                 <li class="nav-item">
                                     <a class="dropdown-item" asp-area="Admin" asp-controller="Category" asp-action="Index">Category</a>
                                 </li>
-                                <li><hr class="dropdown-divider"></li>
+                                <li class="nav-item">
+                                    <a class="dropdown-item" asp-area="Admin" asp-controller="Product" asp-action="Index">Product</a>
+                                </li>
+                                @* <li><hr class="dropdown-divider"></li> *@
                             </ul>
                         </li>
                     </ul>
@@ -52,7 +55,7 @@
     </main>
 
     <footer class="border-top footer bg-primary text-light ">
-        <p class="container pt-2 pb-2 mb-0" style="text-align:center;">
+        <p class="container pt-1 mb-0" style="text-align:center;">
             &copy; 2023 - Livraria Candeias - Made by Wynicius with <i class="bi bi-heart-fill"></i>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
