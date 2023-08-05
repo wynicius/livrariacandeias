@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\wwwroot\\images\\product\\20b94f79-53f6-4a9a-a8e2-a10a8d877954.jpg",
+      "PackagePath": "staticwebassets\\images\\product\\20b94f79-53f6-4a9a-a8e2-a10a8d877954.jpg"
+    },
+    {
       "Id": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

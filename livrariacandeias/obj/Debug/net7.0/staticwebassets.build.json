@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HQZxpZeGZ9LV0+PR7HdyE81OqGkDLew4PNkbHFW3CyY=",
+  "Hash": "qkMDJP/OwulWE+vTox2nZvSiyhMHwqMfTnoBaUDvJ6E=",
   "Source": "livrariacandeias",
   "BasePath": "_content/livrariacandeias",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\wwwroot\\images\\product\\20b94f79-53f6-4a9a-a8e2-a10a8d877954.jpg",
+      "SourceId": "livrariacandeias",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\wwwroot\\",
+      "BasePath": "_content/livrariacandeias",
+      "RelativePath": "images/product/20b94f79-53f6-4a9a-a8e2-a10a8d877954.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\product\\20b94f79-53f6-4a9a-a8e2-a10a8d877954.jpg"
     },
     {
       "Identity": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias\\wwwroot\\js\\site.js",
