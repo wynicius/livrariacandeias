@@ -19,7 +19,7 @@ namespace livrariacandeias.DataAccess.Repository
         {
             _db = db;
             Category = new CategoryRepository(_db);
-            Product = new ProductRepository(db);
+            Product = new ProductRepository(_db);
         }
 
         public void Save()

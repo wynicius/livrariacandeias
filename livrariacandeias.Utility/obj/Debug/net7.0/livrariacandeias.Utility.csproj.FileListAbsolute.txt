@@ -12,3 +12,17 @@ C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Utility
 C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\ref\livrariacandeias.Utility.dll
 C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Utility\bin\Debug\net7.0\livrariacandeias.Utility.runtimeconfig.json
 C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.genruntimeconfig.cache
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\bin\Debug\net7.0\livrariacandeias.Utility.deps.json
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\bin\Debug\net7.0\livrariacandeias.Utility.runtimeconfig.json
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\bin\Debug\net7.0\livrariacandeias.Utility.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\bin\Debug\net7.0\livrariacandeias.Utility.pdb
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.csproj.AssemblyReference.cache
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.AssemblyInfoInputs.cache
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.AssemblyInfo.cs
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.csproj.CoreCompileInputs.cache
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\refint\livrariacandeias.Utility.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.pdb
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\livrariacandeias.Utility.genruntimeconfig.cache
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Utility\obj\Debug\net7.0\ref\livrariacandeias.Utility.dll

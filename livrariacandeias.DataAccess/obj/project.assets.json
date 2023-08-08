@@ -8440,11 +8440,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.DataAccess\\livrariacandeias.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.DataAccess\\livrariacandeias.DataAccess.csproj",
       "projectName": "livrariacandeias.DataAccess",
-      "projectPath": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.DataAccess\\livrariacandeias.DataAccess.csproj",
+      "projectPath": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.DataAccess\\livrariacandeias.DataAccess.csproj",
       "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -8459,11 +8459,11 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj": {
-              "projectPath": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj"
+            "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj"
             },
-            "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Utility\\livrariacandeias.Utility.csproj": {
-              "projectPath": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Utility\\livrariacandeias.Utility.csproj"
+            "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Utility\\livrariacandeias.Utility.csproj": {
+              "projectPath": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Utility\\livrariacandeias.Utility.csproj"
             }
           }
         }

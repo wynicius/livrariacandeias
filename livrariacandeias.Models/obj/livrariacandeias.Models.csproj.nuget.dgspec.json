@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj": {}
+    "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj": {}
   },
   "projects": {
-    "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj": {
+    "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj",
+        "projectUniqueName": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj",
         "projectName": "livrariacandeias.Models",
-        "projectPath": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj",
+        "projectPath": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\livrariacandeias.Models.csproj",
         "packagesPath": "C:\\Users\\User1\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\User1\\Desktop\\coding\\Projetos\\livrariacandeias\\livrariacandeias.Models\\obj\\",
+        "outputPath": "C:\\Users\\User1\\Desktop\\DEV\\projetos\\livrariacandeias\\livrariacandeias.Models\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User1\\AppData\\Roaming\\NuGet\\NuGet.Config"
