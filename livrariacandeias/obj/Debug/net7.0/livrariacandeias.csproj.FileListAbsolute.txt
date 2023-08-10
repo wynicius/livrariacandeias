@@ -294,6 +294,10 @@ C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Humanizer.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\MessagePack.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\MessagePack.Annotations.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.Identity.UI.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll
@@ -321,6 +325,10 @@ C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.Relational.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.EntityFrameworkCore.SqlServer.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Extensions.DependencyModel.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Extensions.Identity.Core.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Extensions.Identity.Stores.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Extensions.Options.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Identity.Client.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.IdentityModel.Abstractions.dll
@@ -564,3 +572,4 @@ C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\obj\Debug\
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\obj\Debug\net7.0\livrariacandeias.pdb
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\obj\Debug\net7.0\livrariacandeias.genruntimeconfig.cache
 C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\obj\Debug\net7.0\ref\livrariacandeias.dll
+C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias\bin\Debug\net7.0\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
