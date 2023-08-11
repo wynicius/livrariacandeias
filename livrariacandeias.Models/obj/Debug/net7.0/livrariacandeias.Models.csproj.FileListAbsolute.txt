@@ -12,17 +12,3 @@ C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Models\
 C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\ref\livrariacandeias.Models.dll
 C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Models\bin\Debug\net7.0\livrariacandeias.Models.runtimeconfig.json
 C:\Users\User1\Desktop\coding\Projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.genruntimeconfig.cache
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\bin\Debug\net7.0\livrariacandeias.Models.deps.json
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\bin\Debug\net7.0\livrariacandeias.Models.runtimeconfig.json
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\bin\Debug\net7.0\livrariacandeias.Models.dll
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\bin\Debug\net7.0\livrariacandeias.Models.pdb
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.csproj.AssemblyReference.cache
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.AssemblyInfoInputs.cache
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.AssemblyInfo.cs
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.csproj.CoreCompileInputs.cache
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.dll
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\refint\livrariacandeias.Models.dll
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.pdb
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\livrariacandeias.Models.genruntimeconfig.cache
-C:\Users\User1\Desktop\DEV\projetos\livrariacandeias\livrariacandeias.Models\obj\Debug\net7.0\ref\livrariacandeias.Models.dll
