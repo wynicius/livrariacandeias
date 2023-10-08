@@ -269,6 +269,70 @@ namespace livrariacandeias.DataAccess.Migrations
                         });
                 });
 
+            modelBuilder.Entity("livrariacandeias.Models.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StreetAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            City = "Tech City",
+                            Name = "Tech Solution",
+                            PhoneNumber = "1293283618276",
+                            PostalCode = "12221",
+                            State = "IL",
+                            StreetAddress = "123 Tech St"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            City = "Vivid City",
+                            Name = "Vivid Books",
+                            PhoneNumber = "4848484684684",
+                            PostalCode = "12323",
+                            State = "NY",
+                            StreetAddress = "99 Vivid St"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            City = "Harlem City",
+                            Name = "Readers Club",
+                            PhoneNumber = "4564648484588",
+                            PostalCode = "56847",
+                            State = "CA",
+                            StreetAddress = "588 Harlem River St"
+                        });
+                });
+
             modelBuilder.Entity("livrariacandeias.Models.Product", b =>
                 {
                     b.Property<int>("Id")
@@ -412,6 +476,10 @@ namespace livrariacandeias.DataAccess.Migrations
                     b.Property<string>("City")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<int?>("CompanyId")
+                        .IsRequired()
+                        .HasColumnType("int");
+
                     b.Property<string>("Name")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -424,6 +492,8 @@ namespace livrariacandeias.DataAccess.Migrations
 
                     b.Property<string>("StreetAddress")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasIndex("CompanyId");
 
                     b.HasDiscriminator().HasValue("ApplicationUser");
                 });
@@ -488,6 +558,17 @@ namespace livrariacandeias.DataAccess.Migrations
                         .IsRequired();
 
                     b.Navigation("Category");
+                });
+
+            modelBuilder.Entity("livrariacandeias.Models.ApplicationUser", b =>
+                {
+                    b.HasOne("livrariacandeias.Models.Company", "Company")
+                        .WithMany()
+                        .HasForeignKey("CompanyId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Company");
                 });
 #pragma warning restore 612, 618
         }

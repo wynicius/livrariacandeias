@@ -10,6 +10,8 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using livrariacandeias.DataAccess.Repository;
+using livrariacandeias.DataAccess.Repository.IRepository;
 using livrariacandeias.Models;
 using livrariacandeias.Utility;
 using Microsoft.AspNetCore.Authentication;
@@ -21,6 +23,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.CodeAnalysis.FlowAnalysis.DataFlow;
 using Microsoft.Extensions.Logging;
 
 namespace livrariacandeias.Areas.Identity.Pages.Account
@@ -34,6 +37,7 @@ namespace livrariacandeias.Areas.Identity.Pages.Account
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
+        private readonly IUnitOfWork _unitOfWork;
 
         public RegisterModel(
             UserManager<IdentityUser> userManager,
@@ -41,15 +45,17 @@ namespace livrariacandeias.Areas.Identity.Pages.Account
             IUserStore<IdentityUser> userStore,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            IUnitOfWork unitOfWork)
         {
-            _roleManager=roleManager;
+            _roleManager = roleManager;
             _userManager = userManager;
             _userStore = userStore;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
             _logger = logger;
             _emailSender = emailSender;
+            _unitOfWork = unitOfWork;
         }
 
         /// <summary>
@@ -117,6 +123,9 @@ namespace livrariacandeias.Areas.Identity.Pages.Account
             public string? State { get; set; }
             public string? PostalCode { get; set; }
             public string? PhoneNumber { get; set; }
+            public int? CompanyId { get; set; }
+            [ValidateNever]
+            public IEnumerable<SelectListItem> CompanyList { get; set; }
 
         }
 
@@ -134,6 +143,10 @@ namespace livrariacandeias.Areas.Identity.Pages.Account
                 RoleList = _roleManager.Roles.Select(x => x.Name).Select(i => new SelectListItem {
                     Text = i,
                     Value = i
+                }),
+                CompanyList = _unitOfWork.Company.GetAll().Select(i => new SelectListItem {
+                    Text = i.Name,
+                    Value = i.Id.ToString()
                 })
             };
 
@@ -157,6 +170,10 @@ namespace livrariacandeias.Areas.Identity.Pages.Account
                 user.State = Input.State;
                 user.PostalCode = Input.PostalCode;
                 user.PhoneNumber = Input.PhoneNumber;
+
+                if (Input.Role == SD.Role_Company){
+                    user.CompanyId=Input.CompanyId;
+                }
                 
                 var result = await _userManager.CreateAsync(user, Input.Password);
 

@@ -12,8 +12,8 @@ using livrariacandeias.DataAccess.Data;
 namespace livrariacandeias.DataAccess.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20230811202004_AddNameTypeChangeToString")]
-    partial class AddNameTypeChangeToString
+    [Migration("20231008032214_AddCompaniesTable")]
+    partial class AddCompaniesTable
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -269,6 +269,70 @@ namespace livrariacandeias.DataAccess.Migrations
                             Id = 3,
                             DisplayOrder = 3,
                             Name = "Comedy"
+                        });
+                });
+
+            modelBuilder.Entity("livrariacandeias.Models.Company", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("City")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Name")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("PostalCode")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("State")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("StreetAddress")
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Companies");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            City = "Tech City",
+                            Name = "Tech Solution",
+                            PhoneNumber = "1293283618276",
+                            PostalCode = "12221",
+                            State = "IL",
+                            StreetAddress = "123 Tech St"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            City = "Vivid City",
+                            Name = "Vivid Books",
+                            PhoneNumber = "4848484684684",
+                            PostalCode = "12323",
+                            State = "NY",
+                            StreetAddress = "99 Vivid St"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            City = "Harlem City",
+                            Name = "Readers Club",
+                            PhoneNumber = "4564648484588",
+                            PostalCode = "56847",
+                            State = "CA",
+                            StreetAddress = "588 Harlem River St"
                         });
                 });
 

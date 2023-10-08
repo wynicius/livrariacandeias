@@ -10,6 +10,7 @@ namespace livrariacandeias.DataAccess.Data
         {}
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
+        public DbSet<Company> Companies { get; set; }
         public DbSet<ApplicationUser> ApplicationUsers { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
@@ -107,6 +108,12 @@ namespace livrariacandeias.DataAccess.Data
                     CategoryId = 3,
                     ImageUrl = ""
                 }
+            );
+
+            modelBuilder.Entity<Company>().HasData(
+                new Company { Id = 1, Name = "Tech Solution", StreetAddress = "123 Tech St", City = "Tech City", PostalCode = "12221", State = "IL", PhoneNumber = "1293283618276"},
+                new Company { Id = 2, Name = "Vivid Books", StreetAddress = "99 Vivid St", City = "Vivid City", PostalCode = "12323", State = "NY", PhoneNumber = "4848484684684"},
+                new Company { Id = 3, Name = "Readers Club", StreetAddress = "588 Harlem River St", City = "Harlem City", PostalCode = "56847", State = "CA", PhoneNumber = "4564648484588"}
             );
         }
     }

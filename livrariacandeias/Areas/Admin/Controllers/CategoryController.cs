@@ -2,10 +2,14 @@ using Microsoft.AspNetCore.Mvc;
 using livrariacandeias.Models;
 using livrariacandeias.DataAccess.Data;
 using livrariacandeias.DataAccess.Repository.IRepository;
+using Microsoft.AspNetCore.Authorization;
+using livrariacandeias.Utility;
 
 namespace livrariacandeias.Areas.Admin.Controllers
 {
     [Area("Admin")]
+    // [Authorize(Roles = SD.Role_Admin)]
+
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

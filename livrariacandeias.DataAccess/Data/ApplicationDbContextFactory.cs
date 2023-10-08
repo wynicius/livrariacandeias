@@ -11,7 +11,7 @@ public class ApplicationDbContextFactory : IDesignTimeDbContextFactory<Applicati
     {
         var optionsBuilder = new DbContextOptionsBuilder<ApplicationDbContext>();
 
-        optionsBuilder.UseSqlServer("Server=localhost\\sqlexpress;Database=CandeiasBookStore; Trusted_Connection=True; TrustServerCertificate=True");
+        optionsBuilder.UseSqlServer("Server=localhost\\sqlexpress;Database=livrariacandeias; Trusted_Connection=True; TrustServerCertificate=True");
 
         return new ApplicationDbContext(optionsBuilder.Options);
     }
